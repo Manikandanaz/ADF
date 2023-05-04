@@ -1,0 +1,9 @@
+{
+	"name": "itsfi-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f03328ec-9c77-4a9c-b5f2-2257e95136f6",
+		"tenantId": "cb2cd16c-339b-4d56-9133-8c26c0c5a4f0"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "AzureKeyvault2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://itsfi.vault.azure.net/"
+		},
+		"annotations": []
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "itsfiblob_lksrv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureStorage",
+		"description": "this is from python",
+		"parameters": {
+			"SecName": {
+				"type": "String"
+			}
+		},
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"type": "LinkedServiceReference",
+					"referenceName": "AzureKeyvault2"
+				},
+				"secretName": {
+					"type": "Expression",
+					"value": "@linkedService().SecName"
+				}
+			}
+		},
+		"annotations": []
+	}
+}
