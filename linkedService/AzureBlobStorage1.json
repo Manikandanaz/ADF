@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://itsfiblob.blob.core.windows.net/itsficontainer",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
